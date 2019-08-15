@@ -19,4 +19,11 @@
         android:text="@string/move_activity"
         android:layout_marginBottom="@dimen/activity_vertical_margin"
         />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_move_activity_data"
+        android:text="@string/move_with_data"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        />
 </LinearLayout>
