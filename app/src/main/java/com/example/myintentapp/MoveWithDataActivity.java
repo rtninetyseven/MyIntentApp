@@ -15,7 +15,7 @@ public class MoveWithDataActivity extends AppCompatActivity {
 
         TextView tvDataReceived = findViewById(R.id.tv_data_received);
 
-        String name = getIntent().getStringExtra(EXTRA_AGE);
+        String name = getIntent().getStringExtra(EXTRA_NAME);
         int age = getIntent().getIntExtra(EXTRA_AGE,0);
 
         String text = "Name : " + name + ",\nYour Age : " + age;
